@@ -1,0 +1,60 @@
+a.logo {padding: 40px 0 0 0;display: block;float: left;}
+body{font-family: 'Montserrat', sans-serif; height: 100%;margin: 0;}
+.bg {background-image: url("../img/home.jpg");height: 100%; width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;position: absolute;}
+.bg2 {background-image: url("../img/empresa.jpg");height: 100%; width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;position: absolute;}
+.bg3 {background-image: url("../img/contacto.jpg");height: 100%; width: 100%;background-position: center;background-repeat: no-repeat;background-size: cover;position: absolute;}
+footer{font-family: 'Antic Didone', serif;color: #fff;font-style: italic;background:#0c111fcc;position: fixed;bottom: 0;width: 100%;padding: 10px 0; font-size: 10px; text-align: center;}
+footer a{color: #fff; text-decoration: none}
+footer a:hover{color: #fff; text-decoration: underline}
+#trigger{font-size: 30px;color: #fff;display: none;float: right;margin-top: 35px;}
+.title_home{font-family: 'Antic Didone'; color: #fff; font-style: italic; text-align: center; margin-top: 100px}
+.title_empresa{font-family: 'Antic Didone'; background: #fff; color: #000; font-style: italic; text-align: center; margin-top: 100px}
+.subtitle_home{ color: #fff;  text-align: center; text-transform: uppercase; font-weight: bold;}
+.paragraph_home{font-family: 'Antic Didone'; color: #fff; font-style: italic; text-align: center;}
+#cerrarmenu{display: none;    text-align: right;font-size: 30px;}
+nav{float: right;margin-top: 45px;}
+nav ul{list-style: none}
+nav ul li{float: left; margin-right: 20px}
+nav ul li a{color: #fff; font-weight: 400}
+nav ul li a:hover{color: #fff}
+nav ul.negro li a{color: #000; font-weight: 400}
+.submenu{padding: 0; position: absolute;width:390px}
+.submenu li a{display: block;}
+.submenu li a:hover{color: #fff}
+nav ul li:hover .submenu{display: block}
+.bgblack{background: #000000a8 !important;z-index: 2;position: relative;padding: 10px;color: #fff; margin-top: -10px}
+.bgblack2{background: #000 !important;z-index: 2;position: relative;padding: 10px;color: #fff; margin-top: -10px}
+.title_left{    font-weight: 400;font-size: 46px;}
+.producto{width: 80%; display: block;margin:0 auto;}
+.pcontacto{width: 300px; margin: 20px auto; text-align: center; font-size: 18px}
+.acontacto{width: 300px; margin: 20px auto; text-align: center; font-size: 18px;color: #fff; margin:0 auto; display: block}
+.acontacto:hover{color: #fff; text-decoration: underline;}
+    /*==========  MEDIAQUERIES  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+	
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    #trigger{display: block}
+    #cerrarmenu{display: block;}
+
+
+	}
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
