@@ -29,6 +29,14 @@ nav ul li:hover .submenu{display: block}
 .pcontacto{width: 300px; margin: 20px auto; text-align: center; font-size: 18px}
 .acontacto{width: 300px; margin: 20px auto; text-align: center; font-size: 18px;color: #fff; margin:0 auto; display: block}
 .acontacto:hover{color: #fff; text-decoration: underline;}
+#contHistorico img{width: 100%}
+.extracto{font-family: 'Antic Didone'; color: gray; font-style: italic;    padding: 10px 0;}
+.leermas{font-family: 'Antic Didone'; color: gray; font-style: italic; text-align:right; width: 100%;display: block;}
+.precio{
+        font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
     /*==========  MEDIAQUERIES  ==========*/
 
     /* Large Devices, Wide Screens */
