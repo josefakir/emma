@@ -1,11 +1,11 @@
 jQuery(document).ready(function($){
 	$('#trigger').click(function(e){
 		e.preventDefault();
-		$('.menu').slideDown('fast');
+		$('nav').slideDown('fast');
 	});
 	$('#cerrarmenu').click(function(e){
 		e.preventDefault();
-		$('.menu').slideUp('fast');
+		$('nav').slideUp('fast');
 	});
 	
 /*	$("nav ul.menu li").mouseover(function () { //When trigger is hovered...
