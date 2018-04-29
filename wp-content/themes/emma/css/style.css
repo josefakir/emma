@@ -12,16 +12,17 @@ footer a:hover{color: #fff; text-decoration: underline}
 .subtitle_home{ color: #fff;  text-align: center; text-transform: uppercase; font-weight: bold;}
 .paragraph_home{font-family: 'Antic Didone'; color: #fff; font-style: italic; text-align: center;}
 #cerrarmenu{display: none;    text-align: right;font-size: 30px;}
-nav{float: right;margin-top: 45px;}
-nav ul{list-style: none}
-nav ul li{float: left; margin-right: 20px}
-nav ul li a{color: #fff; font-weight: 400}
-nav ul li a:hover{color: #fff}
-nav ul.negro li a{color: #000; font-weight: 400}
+#navigation{float: right;margin-top: 45px;}
+#navigation ul{list-style: none}
+#navigation ul li{float: left; margin-right: 20px}
+#navigation ul li a{color: #fff; font-weight: 400}
+#navigation ul li a:hover{color: #fff !important}
+#navigation ul.negro li a{color: #000; font-weight: 400}
+#navigation ul.negro li a:hover{color: #000 !important;}
 .submenu{padding: 0; position: absolute;width:390px}
 .submenu li a{display: block;}
 .submenu li a:hover{color: #fff}
-nav ul li:hover .submenu{display: block}
+#navigation ul li:hover .submenu{display: block}
 .bgblack{background: #000000a8 !important;z-index: 2;position: relative;padding: 10px;color: #fff; margin-top: -10px}
 .bgblack2{background: #000 !important;z-index: 2;position: relative;padding: 10px;color: #fff; margin-top: -10px}
 .title_left{    font-weight: 400;font-size: 46px;}
@@ -32,10 +33,11 @@ nav ul li:hover .submenu{display: block}
 #contHistorico img{width: 100%}
 .extracto{font-family: 'Antic Didone'; color: gray; font-style: italic;    padding: 10px 0;}
 .leermas{font-family: 'Antic Didone'; color: gray; font-style: italic; text-align:right; width: 100%;display: block;}
-.precio{
-        font-weight: bold;
-    font-size: 25px;
-    text-align: center;
+.precio{font-weight: bold;font-size: 25px;text-align: center;}
+.w100{width: 100%}
+.pt40{padding-top: 40px}
+ul.a-unordered-list.a-vertical.a-spacing-none {
+    line-height: 30px;
 }
     /*==========  MEDIAQUERIES  ==========*/
 
@@ -48,7 +50,8 @@ nav ul li:hover .submenu{display: block}
     @media only screen and (max-width : 992px) {
         #trigger{display: block}
         #cerrarmenu{display: block; margin-right: 20px}
-        nav{position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 2;background: #000c;margin-top: 0;display: none}
+        #navigation{position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 2;background: #000c;margin-top: 0;}
+        #navigation{display: none}
         nav ul li{
         width: 100%;
         padding: 5px 0 
